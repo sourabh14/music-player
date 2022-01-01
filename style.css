@@ -241,6 +241,11 @@ section {
 	border-radius: 50%;
 }
 
+.popular-artists a {
+	text-decoration: none;
+	color: white;
+}
+
 /* ----- Radio station logo ----- */
 
 .radio-station-logo img {
@@ -329,11 +334,12 @@ section {
 
 /* ----- Footer ----- */
 footer {
-	height: 25px;
+	position: fixed;
+	bottom: 0;
 	background-color: #47475a;
 	display: flex;
-	position: sticky;
-	bottom: 0;
+	width: 100%;
+	height: 25px;
 	padding: 15px 30px;
   	align-items: center;
   	box-shadow: 0px -7.5px 15px black;
@@ -382,7 +388,7 @@ aside {
 }
 
 .aside-header {
-	padding: 20px;
+	padding: 15px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -429,7 +435,7 @@ aside {
 }
 
 .queue-songs {
-	padding: 10px;
+	padding: 5px;
 	height: 350px;
 	overflow-y: auto;
 }
@@ -457,10 +463,10 @@ aside {
 	text-decoration: none;
 }
 
-.queue-song-container .queue-song-image {
+.queue-song-container .queue-song-image img {
 	margin: 0px 10px 0px 10px;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 }
 
 .queue-song-container .song-name {
@@ -485,4 +491,102 @@ aside {
 .queue-song-container .favourite-icon {
 	margin: 0px 10px 0px 10px;
 	margin-left: auto;
+}
+
+
+/* -------------- Single Player Screen --------------- */
+
+/* ----- Main section ----- */
+
+.single-playlist-artist {
+	margin: 50px;
+	display: flex;
+	background-color: #07082f;
+}
+
+.single-playlist-artist img {
+	height: 300px;
+	width: 300px;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.2)));
+    /*mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
+}
+
+.artist-description {
+	margin: 20px;
+	color: #bcbcbc;
+}
+
+.artist-description .artist-name {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.artist-description .artist-biography {
+	margin-top: 20px;
+	font-size: 0.8rem;
+}
+
+.play-all-button {
+	margin-top: 60px;
+	height: 35px;
+	width: 120px;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	border: none;
+	/*background: none;*/
+	background-image: linear-gradient(to right, blue, #ed4260);
+	cursor: pointer;
+}
+
+.follow-button {
+	height: 35px;
+	width: 120px;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding-left: 30px;
+}
+
+.tracks-and-albums {
+	margin-top: 20px;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+/* ----- Single artist queue songs ----- */
+
+.queue-song-container .plus-icon {
+	margin: 30px;
+}
+
+.single-playlist-queue .queue-song-container {
+	margin: 10px 50px 10px 50px;
+	background-color: #191a3c;
+}
+
+
+/* ----- Aside Section ----- */
+
+.similar-artists {
+	height: 250px;
+	padding-left: 20px;
+}
+
+.recently-played {
+	height: 250px;
+}
+
+.recently-played-header {
+	margin-top: 30px
+}
+
+.view-all {
+	font-size: 0.8rem;
+	margin-top: 7px;
+	cursor: pointer;
 }

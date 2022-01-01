@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<title> Music Player </title>
+</head>
+<body>
+	<!-- Website header -->
+	<header>
+		<!-- Music player logo and company name -->
+		<a id="logo" href="#" aria-label="music player logo">
+			<img src="images/music-player-logo.png" alt="Music player logo">
+			<div id="company-name"> Ninja
+				<div style="font-weight: bold">
+					Studio
+				</div>
+			</div>
+		</a>
+		
+		<!-- Search bar <-->
+		<div id="search-bar">
+			<form action="">
+				<input type="text" placeholder="&nbsp;&nbsp; Search">
+				<i class="fas fa-search"></i>
+			</form>
+		</div>
+
+		<!-- Notification icon -->
+		<div id="notifications">
+			 <i class="fas fa-bell"></i>
+		</div>
+
+		<!-- User -->
+		<div id="user">
+			 <i class="fas fa-user"></i>
+		</div>
+		
+	</header>
+
+	<!-- Main section -->
+	<main>
+		
+		<section>
+			<!-- Single Playlist Artist Introduction -->
+			<div class="single-playlist-artist">
+				<img src="images/popular-artists/artist1.jpg" alt="single playlist artist">
+				<div class="artist-description">
+					<div class="artist-name">Arijit Singh</div>
+					<div class="artist-biography">Arijit Singh, is an Indian playback singer. Known for his soulful voice that reverberates with romantic songs, Arijit Singh is setting new trends in the music industry, by stirring up unforgetable notes for the young hearts.
+					</div>
+					<button class="play-all-button">Play All</button>
+					<button class="follow-button">Follow</button>
+					<div class="tracks-and-albums">247 Tracks | 128 Albums</div>
+				</div>
+			</div>
+
+			<!-- Single Playlist Queue -->
+			<div class="single-playlist-queue">
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 01 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song1.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Agar Tum Saath Ho</div>
+							<div class="artist">Arijit Singh, Alka Yagnik</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 02 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song2.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Pal Pal Dil Ke Paas</div>
+							<div class="artist">Arijit Singh, Parampara Tandon</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 03 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song3.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Tum Hi Ho</div>
+							<div class="artist">Arijit Singh</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 04 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song4.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Soch Liya</div>
+							<div class="artist">Arijit Singh, Mithoon</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 05 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song5.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Khairiyat</div>
+							<div class="artist">Arijit Singh, Pritam</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container ">
+						<div class="serial-number"> 06 </div>
+						<div class="queue-song-image">
+							<img src="images/single-artist/song6.jpg" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Raat Zara Si</div>
+							<div class="artist">Arijit Singh</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="plus-icon">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</a>
+
+			</div>
+			
+		</section>
+
+		<!-- Aside section - Song queue -->
+		<aside>
+			<div class="aside-header">
+				<div class="queue-title">
+					Similar Artists
+				</div>
+				<div class="view-all">
+					View All
+				</div>
+			</div>
+
+			<div class="queue-songs similar-artists">
+				<div class="latest-release-playlist">
+					<a class="latest-release-img-container" href="#music-player">
+						<img src="images/similar-artists/similar-artist1.jpg" alt="similar artist 1">
+						<img class="play-button" src="images/play-button2.png" alt="play button">
+					</a>
+					<div class="latest-release-playlist-description">
+						<b>Amit Trivedi</b> <div>Singer</div>
+					</div>
+				</div>
+
+				<div class="latest-release-playlist">
+					<a class="latest-release-img-container" href="#music-player">
+						<img src="images/similar-artists/similar-artist1.jpg" alt="similar artist 1">
+						<img class="play-button" src="images/play-button2.png" alt="play button">
+					</a>
+					<div class="latest-release-playlist-description">
+						<b>Amit Trivedi</b> <div>Singer</div>
+					</div>
+				</div>
+
+				<div class="latest-release-playlist">
+					<a class="latest-release-img-container" href="#music-player">
+						<img src="images/similar-artists/similar-artist1.jpg" alt="similar artist 1">
+						<img class="play-button" src="images/play-button2.png" alt="play button">
+					</a>
+					<div class="latest-release-playlist-description">
+						<b>Amit Trivedi</b> <div>Singer</div>
+					</div>
+				</div>
+
+				<div class="latest-release-playlist">
+					<a class="latest-release-img-container" href="#music-player">
+						<img src="images/similar-artists/similar-artist1.jpg" alt="similar artist 1">
+						<img class="play-button" src="images/play-button2.png" alt="play button">
+					</a>
+					<div class="latest-release-playlist-description">
+						<b>Amit Trivedi</b> <div>Singer</div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="aside-header recently-played-header">
+				<div class="queue-title">
+					Recently Played
+				</div>
+				<div class="view-all">
+					View All
+				</div>
+			</div>
+
+			<div class="queue-songs recently-played">
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 01 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image1.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">This Is What You Came For</div>
+							<div class="artist">Rihanna, Calvin Harris</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 02 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image2.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">How Deep Is Your Love</div>
+							<div class="artist">Calvin Harris, Disciples</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 03 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image3.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Feels</div>
+							<div class="artist">Calvin Harris, Pharrell Williams, Katy Perry, Big Sean </div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 04 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image4.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Summer</div>
+							<div class="artist">Calvin Harris</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 05 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image5.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Promises</div>
+							<div class="artist">Calvin Harris, Sam Smith</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 06 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image6.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Hypnagogic (I Can't Wait)</div>
+							<div class="artist">Love Regenerator, Calvin Harris</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 07 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image7.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">Giant</div>
+							<div class="artist">Calvin Harris, Rag'n'Bone Man</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+
+				<a class="queue-item" href="#music-player">
+					<div class="queue-song-container">
+						<div class="serial-number"> 08 </div>
+						<div class="song-image">
+							<img src="images/queue/queue-song-image8.webp" alt="queue song image">
+						</div>
+						<div class="song-description">
+							<div class="song-name">My Way</div>
+							<div class="artist">Calvin Harris</div>
+						</div>
+						<div class="favourite-icon">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+				</a>
+				
+
+			</div>
+			
+			
+		</aside>
+
+	</main>
+
+	<!-- Music player -->
+	<footer id="music-player">
+		<img src="images/latest-release-playlist-img.jpg" alt="latest release img">
+		<div class="song-description">
+			<b>Onism</b> <div>The Awareness of How ...</div>
+		</div>
+		<audio controls>
+			<source src="audio/onism.mp3" type="audio/mpeg">
+		</audio>
+	</footer>
+	
+</body>
+</html>
